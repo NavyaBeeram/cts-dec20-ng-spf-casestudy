@@ -1,0 +1,50 @@
+<div>
+    <h3>Welcome</h3> 
+    <div>
+        <button (click)="logout()">Logout</button>
+        <h3>Available policies</h3>
+        <table class="table">
+            
+            <tr>
+                <th > S.No</th>
+                <th >Policy Name</th>
+                <th >Policy Details</th>
+                <th >  </th>
+            </tr>
+        
+        <tbody>
+            <tr>
+              <td >1</td>
+              <td>Dental Plus Premium Policy</td>
+              <td>This policy covers tooth implementation and other dental surgeries</td>
+              <td><input type = "submit" class = "btn btn-primary" value = "ADD"> </td>
+            </tr>
+            <tr>
+              <td >2</td>
+              <td>Orthopedic premium policy</td>
+              <td>This policy includes treatment of bone injuries</td>
+              <td><input type = "submit" class = "btn btn-primary" value = "ADD"></td>
+            </tr>
+            <tr>
+              <td >3</td>
+              <td>Cardiac Insurance policy</td>
+              <td>This policy covers heart surgeries</td>
+              <td><input type = "submit" class = "btn btn-primary" value = "ADD"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ophthalmology premium policy</td>
+                <td>This policy includes covers lasik treatment,cataract treatment</td>
+                <td><input type = "submit" class = "btn btn-primary" value = "ADD"></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td> Lung Insurance policy</td>
+                <td>This policy covers lung transplantation.</td>
+                <td><input type = "submit" class = "btn btn-primary" value = "ADD"></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+</div>
+<router-outlet></router-outlet>
